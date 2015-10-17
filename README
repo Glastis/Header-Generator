@@ -1,0 +1,15 @@
+Getting started:
+
+Commands:
+
+make
+chmod 775 hmake.sh
+
+That's all. You can use hmake.sh like that:
+
+./hmake.sh [header_path]
+
+It will search all functions in all c files in current directory and all it's sub-directories. If header isn't created yet, it will create basic one.
+Hmake (header generator) will never remove a existing header file, it will just add at the end all found functions.
+
+Share it if you found it usefull.

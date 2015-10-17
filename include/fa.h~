@@ -1,0 +1,26 @@
+#ifndef FA_H_
+# define FA_H_
+
+# define READ_SIZE	50
+# define RED		"\033[31m"
+# define GREEN		"\033[32m"
+# define WHITE		"\033[0m"
+# define FUNC_NAME	"veritable_petit_beurre_de_lu_check_stack();\n"
+
+char	*my_realloc(char *str, int size);
+int	is_func(char *str);
+int	is_func_end(char *str, int i);
+int	write_function_line(char *str, int x);
+char	*write_function(char *raw);
+char	*get_src(char *path);
+int	add_function(char *path);
+int	get_c_files(char *path);
+void	malloc_error();
+char	*clone_str(char *str);
+int	get_dir(char *path);
+int	is_same(char *str1, char *str2);
+int	is_matching(char *str1, char *str2);
+char	*str_coupler(char *str1, char *str2);
+void	print_line(char *str);
+
+#endif /* FA_H_ */

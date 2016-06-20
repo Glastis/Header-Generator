@@ -1,0 +1,6 @@
+{
+  "name": "Header-generator",
+  "tagline": "Create or modify header file with all function found in all .c files in current directory (pwd) and all subdirectories",
+  "body": "You are too lazy to search in your .h file(s) and modify it for one function ?\r\n\r\nGreat ! I have a solution for you !\r\n\r\n\r\n## Presentation\r\n\r\nHeader generator is a tool that adds at the end of .h passed in argument all prototypes of functions found (except static ones) in .c files in your pwd and in all it's sub-directories. Linker is no longer a slut.\r\n\r\n\r\n\r\n## TODO\r\n- This tool works fine on linux and should works on cygwin. Must create windows version.\r\n\r\n- Graphical version.\r\n\r\n- Actualisation of functions instead of adding at the end. That will be a great feature.\r\n\r\n## Suggestion ?\r\n\r\nIf you have any idea, issue on my github.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
